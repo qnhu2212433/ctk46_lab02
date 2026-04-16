@@ -18,3 +18,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+
+{/* Thêm dòng này vào phần <nav> của bạn */}
+<Link href="/blog" className="hover:text-blue-200">Blog</Link>
+<Link href="/blog" className="mr-4">Blog</Link>
+<Link href="/guestbook">Lời nhắn</Link>
